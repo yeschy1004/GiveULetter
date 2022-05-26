@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5301542982137436009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5301542982137436015}
+  - component: {fileID: 5301542982137436008}
+  - component: {fileID: 5301542982137436014}
+  - component: {fileID: 5301542981054940741}
+  m_Layer: 0
+  m_Name: SBEditor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5301542982137436015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301542982137436009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5301542982137436008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301542982137436009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236f1d06a02627346a719b1622c444cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorPanelUI: {fileID: 5301542981054940741}
+  recorder: {fileID: 0}
+  recordUI: {fileID: 0}
+  camera: {fileID: 0}
+  isEditing: 0
+--- !u!114 &5301542982137436014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301542982137436009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f6a735096ce424a99441976b8e580e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SBEditingObjectPrefab: {fileID: 4407083707703395011, guid: 796018d82b66e2740b6ae016f535d900,
+    type: 3}
+  player: {fileID: 0}
+  distance: 1.51
+  setSBButton: {fileID: 0}
+  addSBButton: {fileID: 0}
+--- !u!114 &5301542981054940741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301542982137436009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f14ee35a3cdb648a44aacb9a320e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelUI: {fileID: 0}
+  picPreview: {fileID: 0}
+  pictureStatus: {fileID: 0}
+  editingPanel: {fileID: 0}
+  mainPanel: {fileID: 0}
+  sbSettingSaveButton: {fileID: 0}
+  setPictureMsg: {fileID: 21300000, guid: 291074dc63469ac41b44072e7a6cffa1, type: 3}
+  pictureSetMsg: {fileID: 21300000, guid: 1a548ffd6514b614988c3e6d6e61f9c4, type: 3}

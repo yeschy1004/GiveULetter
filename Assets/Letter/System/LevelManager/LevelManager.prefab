@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7809907397644652046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7809907397644652044}
+  - component: {fileID: 513900755196530375}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7809907397644652044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7809907397644652046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513900755196530375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7809907397644652046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219b3d68ca61ae842a9864fe5fe11a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainPanel: {fileID: 0}
+  mailboxPanel: {fileID: 0}
+  exitPanel: {fileID: 0}
+  letterPanel: {fileID: 0}
+  sendPanel: {fileID: 0}
+  sendCheckingPanel: {fileID: 0}
+  kakaoPopUpPanel: {fileID: 0}
+  kakaoSelectPanel: {fileID: 0}
+  kakaoChattingPanel: {fileID: 0}
+  kakaoSelectPanel_after: {fileID: 0}
+  kakaoSelectPanel_before: {fileID: 0}
+  kakaoSelectPanel_okBtn: {fileID: 0}
+  downloadSuccessPanel: {fileID: 0}
+  downloadStateTxt: {fileID: 0}
+  inputCodeTxt: {fileID: 0}
+  mailbox_LetterScrollview: {fileID: 0}
+  mailbox_LetterEmptyObj: {fileID: 0}
+  mailbox_letterTime: {fileID: 0}
+  mailbox_letterDate: {fileID: 0}
+  sendPanel_letterTitleTxt: {fileID: 0}
+  sendPanel_SenderNameInputField: {fileID: 0}
+  sendPanel_ReceiverNameInputField: {fileID: 0}
+  curDate: 
+  curTime: 
