@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "708991748797",
+    "firebase_url": "https://soundspace-cf041.firebaseio.com",
+    "project_id": "soundspace-cf041",
+    "storage_bucket": "soundspace-cf041.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708991748797:android:1f1bbc9de3100e9b",
+        "android_client_info": {
+          "package_name": "GrayScale.SoundSpace.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708991748797-hbsommpj408ghlbuv3oajgsp0rnh2q47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "GrayScale.SoundSpace.android",
+            "certificate_hash": "6a67e5ef41e32afab3bea09c9cbc9dc38411381f"
+          }
+        },
+        {
+          "client_id": "708991748797-h6ercv30id3f8skfhgclkf54j8ia58r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMpg-kCX3G6t712Yrw_Jo8kmg_IcmkplQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708991748797-h6ercv30id3f8skfhgclkf54j8ia58r0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "708991748797-fcm052085qkoj1evupsf8s8o4g0ud8u2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "GrayScale.SoundSpace.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708991748797:android:5b1c5d28d177f3a88045d4",
+        "android_client_info": {
+          "package_name": "android.SilverliningStudio.GiveULetter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708991748797-2b9e8idnn0dv6q1g52ftsomp46h6uiiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.SilverliningStudio.GiveULetter",
+            "certificate_hash": "6a67e5ef41e32afab3bea09c9cbc9dc38411381f"
+          }
+        },
+        {
+          "client_id": "708991748797-h6ercv30id3f8skfhgclkf54j8ia58r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMpg-kCX3G6t712Yrw_Jo8kmg_IcmkplQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708991748797-h6ercv30id3f8skfhgclkf54j8ia58r0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "708991748797-fcm052085qkoj1evupsf8s8o4g0ud8u2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "GrayScale.SoundSpace.android"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
